@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">;
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>;
+    <title>Seatwork 2</title>
+</head>
+<body>
+<p> Welcome to the Intramurals. Please sign in, and select your team! Make sure to confirm your medical clearance, put your grade and section, and your team.</p>
+<form>
+<input type="text" id="username" name="username" placeholder="Enter username" required>
+<input type="radio" id="bbears" name="TEAMS" value ="Blue Bears">
+  <label for="bbears">BLUE BEARS</label><br>
+  <input type="radio" id="ytigers" name="TEAMS" value="Yellow Tigers">
+  <label for="ytigers">YELLOW TIGERS</label><br>
+  <input type="radio" id="ghornets" name="TEAMS" value="Green Hornets">
+  <label for="ghornets">GREEN HORNETS</label><br>
+  <input type="radio" id="rbulldogs" name="TEAMS" value="Red Bulldogs">
+  <label for="rbulldogs">RED BULLDOGS</label><br>
+  <label for="fruits">Choose a fruit:</label>
+<select id="sections" name="sections">
+  <option value="emerald">Emerald</option>
+  <option value="ruby">Ruby</option>
+  <option value="sapphire">Sapphire</option>
+  <option value="topaz">topaz</option>
+</select>
+<select id="grade" name="grade">
+  <option value="grade 7">GRADE 7</option>
+  <option value="grade 8">GRADE 8</option>
+  <option value="grade 9">GRADE 9</option>
+  <option value="grade 10">GRADE 10</option>
+</select>
+</form>
+<py-script src="main.py"></py-script>
+</body>
+</html>
